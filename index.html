@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Aurora: um cantinho fictício de café, afeto e boas conversas.">
+  <title>Café Aurora | Seu momento mais gostoso</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Café Aurora, início"><span class="brand-mark" aria-hidden="true">✳</span> Café <strong>Aurora</strong></a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="nav" id="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">Nossa história</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#horarios">Horários</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Café servido em uma mesa aconchegante"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <span class="eyebrow light">CAFÉ FEITO COM CALMA</span>
+        <h1 id="hero-title">Todo dia merece<br>um <em>bom começo.</em></h1>
+        <p>No Café Aurora, cada xícara é um convite para desacelerar, conversar e aproveitar o agora.</p>
+        <a class="button button-light" href="#cardapio">Conheça nosso cardápio <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="hero-caption">UM LUGAR PARA SENTIR-SE EM CASA</span>
+    </section>
+
+    <section class="intro section" id="sobre" aria-labelledby="sobre-title">
+      <div class="container intro-grid">
+        <div><span class="eyebrow">PRAZER, SOMOS O AURORA</span><h2 id="sobre-title">Café quentinho.<br><em>Momentos leves.</em></h2></div>
+        <div><p>Somos uma cafeteria fictícia inspirada na beleza das pequenas pausas. Imaginamos um espaço acolhedor, com aromas marcantes, receitas especiais e aquele clima gostoso de encontro.</p><p>Aqui, o ingrediente principal é o carinho em cada detalhe.</p><a class="text-link" href="#contato">Venha conversar com a gente <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="cardapio" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">ESCOLHAS QUE AQUECEM</span><h2 id="menu-title">Nossos <em>favoritos</em></h2></div><p>Três delícias imaginadas especialmente para o seu momento de pausa.</p></div>
+        <div class="products">
+          <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=85" alt="Xícara de café espresso" loading="lazy"></div><div class="product-body"><span class="product-category">CLÁSSICO</span><div class="product-title-row"><h3>Espresso Aurora</h3><strong>R$ 8,00</strong></div><p>Café intenso, aromático e cheio de personalidade.</p></div></article>
+          <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Café cremoso com leite" loading="lazy"></div><div class="product-body"><span class="product-category">CREMOSO</span><div class="product-title-row"><h3>Latte do Amanhecer</h3><strong>R$ 15,00</strong></div><p>Espresso suave, leite vaporizado e uma espuma delicada.</p></div></article>
+          <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=900&q=85" alt="Croissants dourados e folhados" loading="lazy"></div><div class="product-body"><span class="product-category">PARA ACOMPANHAR</span><div class="product-title-row"><h3>Croissant Dourado</h3><strong>R$ 13,00</strong></div><p>Massa folhada, leve e crocante, assada até dourar.</p></div></article>
+        </div>
+        <p class="fiction-note">Cardápio e preços ilustrativos — esta cafeteria é fictícia.</p>
+      </div>
+    </section>
+
+    <section class="visit-section" id="horarios" aria-labelledby="horarios-title"><div class="container visit-grid"><div class="visit-image" role="img" aria-label="Interior aconchegante de uma cafeteria"></div><div class="visit-info"><span class="eyebrow">PLANEJE SUA PAUSA</span><h2 id="horarios-title">Sempre tem hora<br>para um <em>café.</em></h2><p>Nosso horário de funcionamento imaginário:</p><div class="schedule"><div><span>Segunda a sexta</span><strong>08h às 19h</strong></div><div><span>Sábado</span><strong>09h às 18h</strong></div><div><span>Domingo</span><strong>09h às 14h</strong></div></div><small>Horários apenas demonstrativos.</small></div></div></section>
+
+    <section class="contact-section section" id="contato" aria-labelledby="contato-title"><div class="container contact-inner"><span class="eyebrow light">FALE COM A GENTE</span><h2 id="contato-title">Uma boa conversa<br>começa com um <em>olá.</em></h2><p>Dúvidas, sugestões ou só vontade de conversar? Nosso contato de demonstração está aqui.</p><a class="button button-light" href="mailto:ola@cafeaurora.example">ola@cafeaurora.example <span aria-hidden="true">↗</span></a><p class="contact-disclaimer">Endereço de e-mail fictício; não recebe mensagens.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✳</span> Café <strong>Aurora</strong></a><span>Feito para imaginar bons momentos.</span><span>© <span id="year">2026</span> Café Aurora · Projeto fictício</span></div></footer>
+</body>
+</html>
